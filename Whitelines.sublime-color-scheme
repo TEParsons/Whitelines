@@ -1,0 +1,96 @@
+{
+	"name": "whitelines",
+	"globals": {
+		"background": "#F2F2F3",
+		"foreground": "#000000",
+		"invisibles": "#FFFFFF",
+		"caret": "#F4794A",
+		"block_caret": "#F4794A",
+		"line_highlight": "#FABCA5",
+		"misspelling": "#F4794A",
+		"fold_marker": "#FFFFFF",
+		"minimap_border": "#F4794A",
+		"accent": "#F4794A",
+		"popup_css": "html, body {\n        background-color: #F2F2F3;\n        color: #000000;\n    }\nbody {\n	padding: 1px 3px;\n}\na {\n	color: #F4794A;\n}",		
+		"phantom_css": "html, body {\n        background-color: #F2F2F3;\n        color: #000000;\n    }\nbody {\n	padding: 1px 3px;\n}\na {\n	color: #F4794A;\n}",		
+		"gutter": "#F4794A",
+		"gutter_foreground": "#FFFFFF",
+		"line_diff_width": "5",
+		"line_diff_added": "#FFFFFF",
+		"line_diff_modified": "#FABCA5",
+		"line_diff_deleted": "#FFFFFF",
+		"selection": "#969799",
+		"selection_foreground": "#FFFFFF",
+		"selection_border": "#969799",
+		"selection_border_width": "2",
+		"inactive_selection": "#EBEBEC",
+		"inactive_selection_foreground": "#000000",
+		"selection_corner_style": "square",
+		"selection_corner_radius": "0",
+		"highlight": "#FFFFFF",
+		"find_highlight": "#969799",
+		"find_highight_foreground": "#FFFFFF",
+		"guide": "#FFFFFF",
+		"active_guide": "#FFFFFF",
+		"stack_guide": "#FFFFFF",
+		"brackets_options": "underline",
+		"brackets_foreground": "#F4794A",
+		"breackets_contents_options": "",
+		"brackets_contents_foreground": "#F4794A",
+		"tags": "",
+		"tags_foreground": "#F4794A",
+		"shadow": "#969799",
+		"shadow_width": "30"
+	},
+	"rules": [
+		{
+			"name": "Operator",
+			"scope": "keyword.operator",
+			"foreground": "#000000",
+			"font_style": ""
+		},
+		{
+			"name": "Unit",
+			"scope": "keyword.other",
+			"foreground": "#969799",
+			"font_style": ""
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword, storage, meta.annotation",
+			"foreground": "#f4794a",
+			"font_style": "bold"
+		},
+		{
+			"name": "Lang Keywords",
+			"scope": "variable.language, meta.namespace",
+			"foreground": "#f4794a",
+			"font_style": "bold italic"
+		},
+		{
+			"name": "Parameters",
+			"scope": "variable.parameter",
+			"font_style": "bold"
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric, constant.language",
+			"foreground": "#f4794a"
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"foreground": "#F4794A"
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"foreground": "#969799"
+		},
+		{
+			"name": "Error",
+			"scope": "invalid",
+			"foreground": "#FF0000"
+		}
+	]
+}
