@@ -11,3 +11,14 @@ To anyone who has used <a href="https://www.whitelinespaper.com/">Whitelines</a>
     	<td style="background-color:#000000; color:#FFFFFF">#000000</td>
     </tr>
 </table>
+
+> It's easy; dark lines distract, white lines don't.
+
+To anyone who has used <a href="https://www.whitelinespaper.com/">Whitelines</a><sup>TM</sup> notepads, this theme should be familiar! This theme, based on the notebooks, uses a light grey background with white lines, so that your text stands out.
+
+## Screenshots
+
+![Python](\_media\Python.png)
+
+![JS](\_media\JS.png)
+
