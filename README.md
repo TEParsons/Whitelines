@@ -18,7 +18,7 @@ To anyone who has used <a href="https://www.whitelinespaper.com/">Whitelines</a>
 
 ## Screenshots
 
-![Python](.\_media\Python.png)
+![Python](./_media/Python.png)
 
-![JS](.\_media\JS.png)
+![JS](./_media/JS.png)
 
