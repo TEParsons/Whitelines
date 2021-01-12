@@ -1,0 +1,14 @@
+@media print {
+  @page {
+    size: A4;
+    size: portrait;
+    margin: 2cm;
+    background-color: var(--offwhite);
+  }
+  #write {
+    background-image: none !important;
+  }
+}
+html {
+  background-image: url(https://www.whitelinespaper.com/wp-content/themes/whitelines/assets/img/slider-bg.png);
+}

@@ -1,0 +1,36 @@
+#write {
+    position: relative;
+    box-sizing: border-box;
+
+    zoom: 110%;
+    background-color: var(--offwhite);
+    padding: 1cm 1.5cm;
+    padding-bottom: 4cm;  
+}
+@media screen and (min-width: 25cm) {
+    #write {
+        /* Make it a page */
+        width: 21cm;
+        min-height: 29.7cm;
+        margin: 1cm auto;
+        box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+        border: 0.5cm solid white;
+    }
+}
+
+content {
+    overflow-y: scroll;
+    background-image: url(https://www.whitelinespaper.com/wp-content/themes/whitelines/assets/img/slider-bg.png);
+    background-size: contain;
+    background-attachment: fixed;
+}
+#write p, #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write div, #write pre {
+    width: 100%;
+}
+
+#write .md-meta-block {
+    font-family: Nova Mono, sans-serif;
+    background-color: var(--green);
+    border-left: 5px solid var(--red);
+    padding-left: 10px;
+}

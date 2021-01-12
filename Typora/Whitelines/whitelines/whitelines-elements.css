@@ -1,0 +1,54 @@
+/** Blocks **/
+
+blockquote {
+  margin: 5mm 0;
+  padding: 0.5cm 1cm;
+  background-color: white;
+}
+blockquote:before {
+  position: absolute;
+  color: var(--orange);
+  content: "“";
+  font-size: 2cm;
+  font-weight: 800;
+  left: 0cm;
+  padding: 0 0.5cm;
+}
+blockquote > h4, blockquote > h3 {
+  margin-block-start: 0.2em;
+}
+
+/** Tables **/
+figure {
+  margin: 0;
+  width: 100%;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+td {
+  border: 1px solid white;
+  background-color: white;
+  padding: 1rem;
+}
+th {
+  color: white;
+  background-color: var(--orange);
+  padding: 1rem;
+}
+
+/** Images **/
+img {
+  width: calc(100% - 10px);
+  object-fit: cover;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  margin-top:1rem;
+}
+
+/** Other **/
+hr {
+  border: 2px solid white;
+}

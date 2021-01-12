@@ -1,0 +1,32 @@
+/** Didact Gothic **/
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+/** Inconsolata **/
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;577&display=swap");
+/** Josefin Sans **/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Try to import from GitHub */
+@import "https://teparsons.github.io/whitelines/typora/whitelines/whitelines-typography.css";
+@import "https://teparsons.github.io/whitelines/typora/whitelines/whitelines-elements.css";
+@import "https://teparsons.github.io/whitelines/typora/whitelines/whitelines-code.css";
+@import "https://teparsons.github.io/whitelines/typora/whitelines/whitelines-write.css";
+@import "https://teparsons.github.io/whitelines/typora/whitelines/whitelines-print.css";
+@import "https://teparsons.github.io/whitelines/typora/whitelines/whitelines-focus.css";
+@import "https://teparsons.github.io/whitelines/typora/whitelines/whitelines-interface.css";
+
+/* Try locally, in case of connection fail */
+@import "whitelines/whitelines-typography.css";
+@import "whitelines/whitelines-elements.css";
+@import "whitelines/whitelines-code.css";
+@import "whitelines/whitelines-write.css";
+@import "whitelines/whitelines-print.css";
+@import "whitelines/whitelines-focus.css";
+@import "whitelines/whitelines-interface.css";
+
+:root {
+  font-family: 'Didact Gothic', sans-serif;
+  
+  --orange: #F4794A;
+  --offwhite: #f2f2f3;
+  --grey: #969799;
+}

@@ -1,0 +1,66 @@
+/** Scrollbar **/
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+#md-notification {
+  background: white;
+}
+.md-image>.md-meta {
+  color: var(--orange);
+}
+
+
+/** Modal **/
+.popover {
+	background-color: white;
+	color: var(--black);
+}
+.modal-content {
+	background-color: var(--offwhite);
+	padding: 1rem;
+	border: none;
+	border-left: 10px solid var(--orange);
+}
+#md-searchpanel input, input {
+	background-color: white;	
+	border: none;
+	padding: 5px 10px;
+}
+.dropdown-menu, .context-menu {
+	background-color: white;
+	border-left: 10px solid var(--orange);
+}
+.dropdown-menu .active, .context-menu .active {
+	background-color: var(--orange);
+	color: var(--offwhite);
+}
+.menu-style-btn.active, .context-menu.dropdown-menu > .active > a {
+	background-color: rgba(0,0,0,0);
+}
+.context-menu.dropdown-menu > li > a:hover {
+	background-color: rgba(0,0,0,0);
+	color: var(--orange);
+}
+.btn, .btn-danger, .searchpanel-search-option-btn {
+	background-color: white;
+	border: none;
+	margin: 0.5rem;
+}
+.input-group-addon {
+	background-color: var(--offwhite);
+}
+#md-resize-grid {
+	color: var(--offwhite);
+	background-color: var(--orange);
+	border: none;
+}
+
+
+/** Other **/
+#md-notification {
+	background-color: var(--offwhite);
+	border: none;
+}
