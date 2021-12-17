@@ -44,6 +44,9 @@
 	background-color: rgba(0,0,0,0);
 	color: var(--orange);
 }
+.context-menu.dropdown-menu > li.active > a:hover {
+	color: var(--offwhite);
+}
 .btn, .btn-danger, .searchpanel-search-option-btn {
 	background-color: white;
 	border: none;
