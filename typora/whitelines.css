@@ -1,0 +1,19 @@
+/** Didact Gothic **/
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+/** Inconsolata **/
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;577&display=swap");
+/** Josefin Sans **/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/** styles common to Whitelines and Blacklines **/
+@import "whitelines/whitelines_common.css";
+
+:root {
+    --line: #ffffff;
+    --background: #f2f2f3;
+    --foreground: #000000;
+    --orange: #F4794A;
+    --grey: #969799;
+
+    --background-img: url("whitelines_grid.svg");
+}

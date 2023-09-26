@@ -1,0 +1,171 @@
+:root {
+    font-family: 'Didact Gothic', sans-serif;
+    color: var(--foreground);
+    font-size: 0.4cm;
+}
+* {
+    line-height: 0.5cm;
+}
+
+html, content {
+    background: url(background.svg),
+        linear-gradient(#2A2B2A, #12100E);
+}
+
+#write, #typora-source .CodeMirror-lines {
+    position: relative;
+    box-sizing: border-box;
+    width: 21cm;
+    max-width: 100%;
+    min-height: 29.7cm;
+
+    background-color: var(--background);
+    background-image: var(--background-img);
+    box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.5);
+    border: 0.5cm solid var(--line);
+    
+    padding: 1.5cm;
+    margin: 1cm auto;
+}
+#write *:not(hr) {
+    max-width: 100%;
+}
+@media screen and (max-width: 21cm) {
+    #write, #typora-source .CodeMirror-lines {
+        margin: 0;
+    }
+    
+}
+
+/* Typography */
+p {
+    margin-block-start: 0cm;
+    margin-block-end: 0.5cm;
+}
+h1, h2, h3, h4, h5, h6, pre {
+    margin-block-start: 0.5cm;
+    margin-block-end: 0.5cm;
+}
+h1, h2, h3, h4, h5, h6, th {
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1, h2, h3, h6, th {
+    text-decoration: underline;
+    text-decoration-color: var(--orange);
+}
+h1, .cm-header1 {
+    font-size: 3rem;
+    line-height: 1.5cm;
+}
+h2, .cm-header2 {
+    font-size: 2rem;
+    line-height: 1cm;
+}
+h3, .cm-header3 {
+    font-size: 1.5rem;
+    line-height: 1cm;
+}
+h4, .cm-header4 {
+    font-size: 1.5rem;
+    line-height: 1cm;
+}
+h5 {
+    font-size: 1.2rem;
+    margin-block-end: 0;
+}
+h6 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-block-end: 0;
+}
+a {
+    color: var(--orange);
+}
+a:hover {
+    color: var(--foreground);
+}
+mark, code, pre, blockquote {
+    background-color: var(--line);
+}
+sub, sup {
+    font-size: 0.3cm;
+    line-height: 0.3cm;
+}
+sup {
+    vertical-align: top;
+}
+sub {
+    vertical-align: bottom;
+}
+
+/* Block elements */
+img {
+    height: 11cm;
+    padding: 0.5cm;
+    transform: rotate(1deg);
+    box-shadow: 1mm 1mm 2mm rgb(0 0 0 / 20%);
+    background: var(--line);
+    border-radius: 2mm;
+}
+blockquote {
+    margin: 0.5cm 0;
+    padding: 0.5cm;
+}
+blockquote p:first-child {
+    margin-block-start: 0;
+}
+blockquote p:last-child {
+    margin-block-end: 0;
+}
+hr {
+    display: block;
+    line-height: 0;
+    margin: 1.5cm -1.5cm;
+    background-color: var(--line);
+    border: none;
+    height: 0.5cm;
+}
+
+/* Tables */
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+th, td {
+    padding: 0.5cm;
+}
+th {
+    background-color: var(--orange);
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: var(--line);
+}
+tr:nth-child(even) {
+    background-color: var(--background);
+}
+
+/* Lists */
+ul, ol {
+    margin-block-end: 0.5cm;
+    margin-block-start: 0.5cm;
+}
+ul ul, ul ol, ol ul, ol ol {
+    margin-block-start: 0;
+}
+li p {
+    margin: 0;
+}
+
+/* Printing */
+@media print {
+    @page {
+        margin: 0;
+        padding: 0.5cm;
+    }
+    #write {
+        margin: 0;
+        max-width: 100%;
+        box-shadow: none;
+    }
+}
