@@ -100,7 +100,7 @@ sub {
 
 /* Block elements */
 img {
-    height: 11cm;
+    height: 10.9cm;
     padding: 0.5cm;
     transform: rotate(1deg);
     box-shadow: 1mm 1mm 2mm rgb(0 0 0 / 20%);
