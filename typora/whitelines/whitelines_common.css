@@ -107,6 +107,10 @@ img {
     background: var(--line);
     border-radius: 2mm;
 }
+p>.md-image:only-child {
+    /* Typora makes it inline, which adds line height and messes up spacing */
+    display: block;
+}
 blockquote {
     margin: 0.5cm 0;
     padding: 0.5cm;
